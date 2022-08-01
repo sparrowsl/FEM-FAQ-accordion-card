@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" /> -->
+		<link rel="stylesheet" href="./assets/css/bundle.css" />
+		<script src="./assets/js/main.js" defer></script>
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+	</head>
+	<body>
+		<main class="grid h-screen items-center justify-center bg-soft_violet font-kumbh_sans">
+			<section class="relative mx-[10vh] flex items-center rounded-md bg-white py-10 shadow-2xl">
+				<!-- Images -->
+				<div class="basis-full bg-no-repeat">
+					<img
+						src="./assets/images/illustration-box-desktop.svg"
+						alt=""
+						class="absolute translate-x-0 translate-y-2/4"
+					/>
+					<img src="./assets/images/illustration-woman-online-desktop.svg" alt="" />
+				</div>
+
+				<!-- FAQ and answers -->
+				<article class="basis-full px-10" id="faqs">
+					<h2 class="mb-10 text-3xl font-semibold">FAQ</h2>
+
+					<!-- Questions -->
+					<details class="max-w-sm p-3">
+						<summary class="text-very_dark_grayish_blue hover:cursor-pointer hover:text-soft_red">
+							How many team members can I invite?
+						</summary>
+						<p class="p-2 text-dark_grayish_blue">
+							You can invite up to 2 additional users on the Free plan. There is no limit on team
+							members for the Premium plan.
+						</p>
+					</details>
+
+					<details class="max-w-sm p-3">
+						<summary class="text-very_dark_grayish_blue hover:cursor-pointer hover:text-soft_red">
+							What is the maximum file upload size?
+						</summary>
+						<p class="p-2 text-dark_grayish_blue">
+							No more than 2GB. All files in your account must fit your allotted storage space.
+						</p>
+					</details>
+
+					<details class="max-w-sm p-3">
+						<summary class="text-very_dark_grayish_blue hover:cursor-pointer hover:text-soft_red">
+							How do I reset my password?
+						</summary>
+						<p class="p-2 text-dark_grayish_blue">
+							Click “Forgot password” from the login page or “Change password” from your profile
+							page. A reset link will be emailed to you.
+						</p>
+					</details>
+
+					<details class="max-w-sm p-3">
+						<summary class="text-very_dark_grayish_blue hover:cursor-pointer hover:text-soft_red">
+							Can I cancel my subscription?
+						</summary>
+						<p class="p-2 text-dark_grayish_blue">
+							Yes! Send us a message and we'll process your request no questions asked.
+						</p>
+					</details>
+
+					<details class="max-w-sm p-3">
+						<summary class="text-very_dark_grayish_blue hover:cursor-pointer hover:text-soft_red">
+							Do you provide additional support?
+						</summary>
+						<p class="p-2 text-dark_grayish_blue">
+							Chat and email support is available 24/7. Phone lines are open during normal business
+							hours.
+						</p>
+					</details>
+				</article>
+			</section>
+		</main>
+
+		<div class="attribution hidden">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="#">Your Name Here</a>.
+		</div>
+	</body>
+</html>
